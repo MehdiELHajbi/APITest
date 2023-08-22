@@ -21,7 +21,7 @@ public class WeatherForecastController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<string>> Get()
     {
-        return new string[] { "value1", "value2" };
+        return new string[] { "Mehdi1", "Mehdi2" };
     }
 
     // GET api/values/5
